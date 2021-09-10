@@ -25,6 +25,7 @@ public class HttpTransportServer implements TransportServer{
     private Server server;
     @Override
     public void init(int port, RequestHandler handler) {
+
         this.handler = handler;
         this.server = new Server(port);
 

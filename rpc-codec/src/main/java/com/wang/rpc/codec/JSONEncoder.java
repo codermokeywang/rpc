@@ -9,8 +9,6 @@ import com.alibaba.fastjson.JSON;
  * @create: 2021-09-07 00:35
  */
 public class JSONEncoder implements Encoder{
-
-
     @Override
     public byte[] encode(Object obj) {
         return JSON.toJSONBytes(obj);

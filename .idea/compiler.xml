@@ -13,6 +13,7 @@
         <module name="rpcprotocol" />
         <module name="rpcserver" />
         <module name="rpcclient" />
+        <module name="rpcexample" />
       </profile>
     </annotationProcessing>
   </component>

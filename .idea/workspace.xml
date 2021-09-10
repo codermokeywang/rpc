@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd5b70f8-0939-46d3-b245-efb470e1c4b2" name="Default Changelist" comment="" />
+    <list default="true" id="cd5b70f8-0939-46d3-b245-efb470e1c4b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/rpc-client/src/main/java/com/wang/rpc/client/RandomTransportSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-client/src/main/java/com/wang/rpc/client/RpcClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-client/src/main/java/com/wang/rpc/client/TransportSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-protocol/src/main/java/com/wang/rpc/ServiceDescriptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-server/src/main/java/com/wang/rpc/server/Rpcserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-server/src/main/java/com/wang/rpc/server/ServiceInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-server/src/main/java/com/wang/rpc/server/ServiceInvoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-server/src/main/java/com/wang/rpc/server/ServiceManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-server/src/test/java/com/wang/rpc/server/ServiceManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-server/src/test/java/com/wang/rpc/server/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-server/src/test/java/com/wang/rpc/server/TestInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-codec/src/main/java/com/wang/rpc/codec/Encoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-codec/src/main/java/com/wang/rpc/codec/Encoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-protocol/src/main/java/com/wang/rpc/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-protocol/src/main/java/com/wang/rpc/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-protocol/src/main/java/com/wang/rpc/SerivceDescriptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-transport/src/main/java/com/wang/rpc/transport/HTTPTransportClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-transport/src/main/java/com/wang/rpc/transport/HTTPTransportClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-transport/src/main/java/com/wang/rpc/transport/HttpTransportServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-transport/src/main/java/com/wang/rpc/transport/HttpTransportServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-transport/src/main/java/com/wang/rpc/transport/TransportClinet.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-transport/src/main/java/com/wang/rpc/transport/TransportClient.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/rpc-codec/target/" />
@@ -10,6 +33,9 @@
     <ignored path="$PROJECT_DIR$/rpc-client/target/" />
     <ignored path="$PROJECT_DIR$/rpc-server/target/" />
     <ignored path="$PROJECT_DIR$/rpc-common/target/" />
+    <ignored path="$PROJECT_DIR$/rpc-client/${project.build.directory}/classes/" />
+    <ignored path="$PROJECT_DIR$/rpc-client/${project.build.directory}/test-classes/" />
+    <ignored path="$PROJECT_DIR$/rpc-example/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,40 +48,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpc-transport/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="24" column="49" lean-forward="true" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpc-protocol/src/main/java/com/wang/rpc/Peer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rpc-protocol/src/main/java/com/wang/rpc/Request.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="300">
+              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpc-transport/src/main/java/com/wang/rpc/transport/TransportClinet.java">
+        <entry file="file://$PROJECT_DIR$/rpc-client/src/main/java/com/wang/rpc/client/RpcClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="254">
+              <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc-client/src/main/java/com/wang/rpc/client/RemoteInvoker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,69 +83,72 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpc-transport/src/main/java/com/wang/rpc/transport/TransportServer.java">
+        <entry file="file://$PROJECT_DIR$/rpc-server/src/main/java/com/wang/rpc/server/ServiceManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="349">
+              <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc-server/src/test/java/com/wang/rpc/server/ServiceManagerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rpc-transport/src/main/java/com/wang/rpc/transport/HttpTransportServer.java">
+        <entry file="file://$PROJECT_DIR$/rpc-codec/src/main/java/com/wang/rpc/codec/Encoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+            <state relative-caret-position="275">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc-codec/src/main/java/com/wang/rpc/codec/JSONDecoder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpc-transport/src/main/java/com/wang/rpc/transport/HTTPTransportClient.java">
+        <entry file="file://$PROJECT_DIR$/rpc-codec/src/main/java/com/wang/rpc/codec/JSONEncoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+            <state relative-caret-position="173">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpc-transport/src/main/java/com/wang/rpc/transport/RequestHandler.java">
+        <entry file="file://$PROJECT_DIR$/rpc-codec/src/main/java/com/wang/rpc/codec/DecodeException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="250">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpc-protocol/src/main/java/com/wang/rpc/Response.java">
+        <entry file="file://$PROJECT_DIR$/rpc-codec/src/main/java/com/wang/rpc/codec/Decoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpc-protocol/src/main/java/com/wang/rpc/SerivceDescriptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="250">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -137,36 +159,74 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>@Log4j</find>
+      <find>SerivceDescriptor</find>
+      <find>TransportClinet</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>ServiceDescriptor</replace>
+      <replace>TransportClient</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/rpc-protocol/src/main/java/com/wang/rpc/Peer.java" />
-        <option value="$PROJECT_DIR$/rpc-protocol/src/main/java/com/wang/rpc/SerivceDescriptor.java" />
-        <option value="$PROJECT_DIR$/rpc-protocol/src/main/java/com/wang/rpc/Request.java" />
         <option value="$PROJECT_DIR$/rpc-protocol/src/main/java/com/wang/rpc/Response.java" />
         <option value="$PROJECT_DIR$/rpc-common/src/main/java/com/wang/rpc/common/utils/ReflectionUtils.java" />
         <option value="$PROJECT_DIR$/rpc-common/src/main/java/com/wang/rpc/common/utils/TestClass.java" />
         <option value="$PROJECT_DIR$/rpc-common/src/test/java/com/wang/rpc/common/utils/ReflectionUtilsTest.java" />
-        <option value="$PROJECT_DIR$/rpc-codec/src/main/java/com/wang/rpc/codec/Encoder.java" />
         <option value="$PROJECT_DIR$/rpc-codec/src/main/java/com/wang/rpc/codec/Decoder.java" />
         <option value="$PROJECT_DIR$/rpc-codec/pom.xml" />
         <option value="$PROJECT_DIR$/rpc-codec/src/main/java/com/wang/rpc/codec/JSONENcoder.java" />
         <option value="$PROJECT_DIR$/rpc-codec/src/main/java/com/wang/rpc/codec/JSONEncoder.java" />
-        <option value="$PROJECT_DIR$/rpc-codec/src/main/java/com/wang/rpc/codec/JSONDecoder.java" />
         <option value="$PROJECT_DIR$/rpc-codec/src/test/java/com/wang/rpc/codec/TestBean.java" />
         <option value="$PROJECT_DIR$/rpc-codec/src/test/java/com/wang/rpc/codec/JSONEncoderTest.java" />
         <option value="$PROJECT_DIR$/rpc-codec/src/test/java/com/wang/rpc/codec/JSONDecoderTest.java" />
         <option value="$PROJECT_DIR$/rpc-transport/pom.xml" />
-        <option value="$PROJECT_DIR$/rpc-transport/src/main/java/com/wang/rpc/transport/TransportClinet.java" />
         <option value="$PROJECT_DIR$/rpc-transport/src/main/java/com/wang/rpc/transport/RequestHandler.java" />
         <option value="$PROJECT_DIR$/rpc-transport/src/main/java/com/wang/rpc/transport/TransportServer.java" />
-        <option value="$PROJECT_DIR$/rpc-transport/src/main/java/com/wang/rpc/transport/HTTPTransportClient.java" />
+        <option value="$PROJECT_DIR$/rpc-server/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc-server/src/main/java/com/wang/rpc/server/ServiceInstance.java" />
+        <option value="$PROJECT_DIR$/rpc-protocol/src/main/java/com/wang/rpc/SerivceDescriptor.java" />
+        <option value="$PROJECT_DIR$/rpc-protocol/src/main/java/com/wang/rpc/ServiceDescriptor.java" />
+        <option value="$PROJECT_DIR$/rpc-server/src/main/java/com/wang/rpc/server/TestInterface.java" />
+        <option value="$PROJECT_DIR$/rpc-server/src/main/java/com/wang/rpc/server/TestClass.java" />
+        <option value="$PROJECT_DIR$/rpc-server/src/main/java/com/wang/rpc/server/ServiceInvoker.java" />
+        <option value="$PROJECT_DIR$/rpc-client/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc-transport/src/main/java/com/wang/rpc/transport/TransportClinet.java" />
+        <option value="$PROJECT_DIR$/rpc-client/src/main/java/com/wang/rpc/client/RandomTransportSelector.java" />
+        <option value="$PROJECT_DIR$/rpc-client/src/main/java/com/wang/rpc/client/RpcClientConfig.java" />
+        <option value="$PROJECT_DIR$/rpc-example/src/main/java/CalcInterface.java" />
+        <option value="$PROJECT_DIR$/rpc-example/src/main/java/CalcService.java" />
+        <option value="$PROJECT_DIR$/rpc-server/src/main/java/com/wang/rpc/server/Rpcserver.java" />
+        <option value="$PROJECT_DIR$/rpc-example/src/main/java/Server.java" />
+        <option value="$PROJECT_DIR$/rpc-example/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc-example/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/rpc-example/src/main/java/Client.java" />
+        <option value="$PROJECT_DIR$/rpc-server/src/main/java/com/wang/rpc/server/RpcServerConfig.java" />
         <option value="$PROJECT_DIR$/rpc-transport/src/main/java/com/wang/rpc/transport/HttpTransportServer.java" />
+        <option value="$PROJECT_DIR$/rpc-transport/src/main/java/com/wang/rpc/transport/HTTPTransportClient.java" />
+        <option value="$PROJECT_DIR$/rpc-client/src/main/java/com/wang/rpc/client/TransportSelector.java" />
+        <option value="$PROJECT_DIR$/rpc-client/src/main/java/com/wang/rpc/client/RpcClient.java" />
+        <option value="$PROJECT_DIR$/rpc-protocol/src/main/java/com/wang/rpc/Request.java" />
+        <option value="$PROJECT_DIR$/rpc-client/src/main/java/com/wang/rpc/client/RemoteInvoker.java" />
+        <option value="$PROJECT_DIR$/rpc-server/src/main/java/com/wang/rpc/server/ServiceManager.java" />
+        <option value="$PROJECT_DIR$/rpc-server/src/test/java/com/wang/rpc/server/ServiceManagerTest.java" />
+        <option value="$PROJECT_DIR$/rpc-codec/src/main/java/com/wang/rpc/codec/DecodeException.java" />
+        <option value="$PROJECT_DIR$/rpc-codec/src/main/java/com/wang/rpc/codec/JSONDecoder.java" />
+        <option value="$PROJECT_DIR$/rpc-codec/src/main/java/com/wang/rpc/codec/Encoder.java" />
       </list>
     </option>
   </component>
@@ -185,18 +245,21 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-460" />
-    <option name="y" value="250" />
-    <option name="width" value="1935" />
-    <option name="height" value="1040" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,6 +270,41 @@
             <path>
               <item name="rpc" type="b2602c69:ProjectViewProjectNode" />
               <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-codec" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-codec" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-codec" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-codec" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-codec" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="codec" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
               <item name="rpc-protocol" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -218,25 +316,14 @@
             <path>
               <item name="rpc" type="b2602c69:ProjectViewProjectNode" />
               <item name="rpc" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc-transport" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rpc" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc-transport" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rpc" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc-transport" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-protocol" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rpc" type="b2602c69:ProjectViewProjectNode" />
               <item name="rpc" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc-transport" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-protocol" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -244,11 +331,11 @@
             <path>
               <item name="rpc" type="b2602c69:ProjectViewProjectNode" />
               <item name="rpc" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc-transport" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-protocol" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="transport" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -265,18 +352,26 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.wang.rpc.server" />
       <recent name="com.wang.rpc.codec" />
       <recent name="com.wang.rpc.common.utils" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.wang.rpc.server" />
       <recent name="com.wang.rpc.common.utils" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.wang.rpc.client" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -291,7 +386,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JSONDecoderTest">
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client" />
+      <module name="rpcexample" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Server" />
+      <module name="rpcexample" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JSONDecoderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rpccodec" />
       <extension name="coverage">
@@ -307,41 +416,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JSONEncoderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="rpccodec" />
+    <configuration name="ServiceManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rpcserver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wang.rpc.codec.*" />
+          <option name="PATTERN" value="com.wang.rpc.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.wang.rpc.codec" />
-      <option name="MAIN_CLASS_NAME" value="com.wang.rpc.codec.JSONEncoderTest" />
+      <option name="PACKAGE_NAME" value="com.wang.rpc.server" />
+      <option name="MAIN_CLASS_NAME" value="com.wang.rpc.server.ServiceManagerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectionUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="rpccommon" />
+    <configuration name="ServiceManagerTest.lookup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rpcserver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wang.rpc.common.utils.*" />
+          <option name="PATTERN" value="com.wang.rpc.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.wang.rpc.common.utils" />
-      <option name="MAIN_CLASS_NAME" value="com.wang.rpc.common.utils.ReflectionUtilsTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.wang.rpc.server" />
+      <option name="MAIN_CLASS_NAME" value="com.wang.rpc.server.ServiceManagerTest" />
+      <option name="METHOD_NAME" value="lookup" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="JUnit.ServiceManagerTest" />
+        <item itemvalue="JUnit.ServiceManagerTest.lookup" />
         <item itemvalue="JUnit.JSONDecoderTest" />
-        <item itemvalue="JUnit.JSONEncoderTest" />
-        <item itemvalue="JUnit.ReflectionUtilsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -357,23 +469,48 @@
       <updated>1630938529813</updated>
       <workItem from="1630938533900" duration="1490000" />
       <workItem from="1630940055761" duration="6092000" />
-      <workItem from="1631019664108" duration="4536000" />
+      <workItem from="1631019664108" duration="22612000" />
+      <workItem from="1631247395398" duration="15350000" />
     </task>
+    <task id="LOCAL-00001" summary="实现一个手写的轻量级RPC框架，方便学习设计RPC底层原理">
+      <created>1631025437144</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631025437144</updated>
+    </task>
+    <task id="LOCAL-00002" summary="实现一个手写的轻量级RPC框架，方便学习设计RPC底层原理">
+      <created>1631025528734</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1631025528734</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="ReflectionUtilsTest - 2021.09.07 at 00h 24m 04s.xml">
       <configuration name="ReflectionUtilsTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ServiceManagerTest - 2021.09.08 at 00h 50m 56s.xml">
+      <configuration name="ServiceManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServiceManagerTest_lookup - 2021.09.08 at 00h 55m 32s.xml">
+      <configuration name="ServiceManagerTest.lookup" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServiceManagerTest - 2021.09.10 at 16h 49m 52s.xml">
+      <configuration name="ServiceManagerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12118000" />
+    <option name="totallyTimeSpent" value="45544000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25603217" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25938338" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -382,7 +519,39 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37677053" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25938338" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -403,225 +572,546 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Database" order="9" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="实现一个手写的轻量级RPC框架，方便学习设计RPC底层原理" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现一个手写的轻量级RPC框架，方便学习设计RPC底层原理" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rpc-example/src/main/java/Client.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="method" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rpc-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc.iml">
+    <entry file="jar://D:/program/environment/apache-maven-3.6.0/repo/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar!/ch/qos/logback/core/util/CachingDateFormatter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        <state relative-caret-position="282">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-common/src/main/java/com/wang/rpc/common/utils/ReflectionUtils.java">
+    <entry file="jar://D:/program/environment/apache-maven-3.6.0/repo/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/ch/qos/logback/classic/pattern/DateConverter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+        <state relative-caret-position="173">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/environment/apache-maven-3.6.0/repo/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/ch/qos/logback/classic/pattern/ThreadConverter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#382#383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/environment/apache-maven-3.6.0/repo/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/ch/qos/logback/classic/Level.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="e#1723#1724#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/environment/apache-maven-3.6.0/repo/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/ch/qos/logback/classic/pattern/LevelConverter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#380#381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/environment/apache-maven-3.6.0/repo/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/ch/qos/logback/classic/spi/CallerData.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/environment/apache-maven-3.6.0/repo/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/ch/qos/logback/classic/pattern/FileOfCallerConverter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/environment/apache-maven-3.6.0/repo/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/ch/qos/logback/classic/pattern/MethodOfCallerConverter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/environment/apache-maven-3.6.0/repo/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/ch/qos/logback/classic/pattern/LineOfCallerConverter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/environment/apache-maven-3.6.0/repo/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar!/ch/qos/logback/core/html/HTMLLayoutBase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="187" selection-start-line="187" selection-end-line="187" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/environment/apache-maven-3.6.0/repo/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/ch/qos/logback/classic/pattern/MessageConverter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#390#391#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/environment/apache-maven-3.6.0/repo/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar!/ch/qos/logback/core/helpers/Transform.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/environment/apache-maven-3.6.0/repo/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar!/ch/qos/logback/core/pattern/Converter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#686#687#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/environment/apache-maven-3.6.0/repo/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/ch/qos/logback/classic/spi/LoggingEvent.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+          <folding>
+            <element signature="e#2799#2800#0" expanded="true" />
+            <element signature="e#2832#2833#0" expanded="true" />
+            <element signature="e#3559#3560#0" expanded="true" />
+            <element signature="e#4548#4549#0" expanded="true" />
+            <element signature="e#4585#4586#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/environment/apache-maven-3.6.0/repo/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/ch/qos/logback/classic/html/HTMLLayout.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/environment/apache-maven-3.6.0/repo/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar!/ch/qos/logback/core/encoder/LayoutWrappingEncoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="e#2107#2108#0" expanded="true" />
+            <element signature="e#2192#2193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/environment/apache-maven-3.6.0/repo/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar!/ch/qos/logback/core/recovery/ResilientOutputStreamBase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+          <folding>
+            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/environment/apache-maven-3.6.0/repo/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar!/ch/qos/logback/core/OutputStreamAppender.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/environment/apache-maven-3.6.0/repo/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar!/ch/qos/logback/core/UnsynchronizedAppenderBase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#2147#2148#0" expanded="true" />
+            <element signature="e#2182#2183#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/environment/apache-maven-3.6.0/repo/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar!/ch/qos/logback/core/spi/AppenderAttachableImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/environment/apache-maven-3.6.0/repo/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/ch/qos/logback/classic/util/ContextSelectorStaticBinder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="e#2397#2398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/environment/apache-maven-3.6.0/repo/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/ch/qos/logback/classic/selector/DefaultContextSelector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/environment/apache-maven-3.6.0/repo/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/org/slf4j/impl/StaticLoggerBinder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="e#1250#1251#0" expanded="true" />
+            <element signature="e#1282#1283#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/environment/apache-maven-3.6.0/repo/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/ch/qos/logback/classic/util/LoggerNameUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/environment/apache-maven-3.6.0/repo/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/ch/qos/logback/classic/Logger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/environment/apache-maven-3.6.0/repo/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/ch/qos/logback/classic/LoggerContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
+          <folding>
+            <element signature="e#10130#10131#0" expanded="true" />
+            <element signature="e#10175#10176#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/environment/apache-maven-3.6.0/repo/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar!/org/slf4j/LoggerFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="298" selection-start-line="298" selection-end-line="298" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-protocol/src/main/java/com/wang/rpc/ServiceDescriptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-client/src/main/java/com/wang/rpc/client/RandomTransportSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-common/src/test/java/com/wang/rpc/common/utils/TestClass.java">
+    <entry file="jar://D:/program/environment/apache-maven-3.6.0/repo/com/alibaba/fastjson/1.2.44/fastjson-1.2.44.jar!/com/alibaba/fastjson/JSON.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        <state relative-caret-position="62">
+          <caret line="528" selection-start-line="528" selection-end-line="528" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/environment/apache-maven-3.6.0/repo/com/alibaba/fastjson/1.2.44/fastjson-1.2.44.jar!/com/alibaba/fastjson/util/IdentityHashMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/environment/apache-maven-3.6.0/repo/com/alibaba/fastjson/1.2.44/fastjson-1.2.44.jar!/com/alibaba/fastjson/serializer/SerializeConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="374" selection-start-line="374" selection-end-line="374" />
           <folding>
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#16212#16213#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-common/src/test/java/com/wang/rpc/common/utils/ReflectionUtilsTest.java">
+    <entry file="jar://D:/program/environment/apache-maven-3.6.0/repo/com/alibaba/fastjson/1.2.44/fastjson-1.2.44.jar!/com/alibaba/fastjson/serializer/SerializeFilterable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+        <state relative-caret-position="62">
+          <caret line="263" selection-start-line="263" selection-end-line="263" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-codec/src/main/java/com/wang/rpc/codec/Encoder.java">
+    <entry file="jar://D:/program/environment/apache-maven-3.6.0/repo/com/alibaba/fastjson/1.2.44/fastjson-1.2.44.jar!/com/alibaba/fastjson/serializer/JavaBeanSerializer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        <state relative-caret-position="62">
+          <caret line="422" selection-start-line="422" selection-end-line="422" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://D:/program/environment/apache-maven-3.6.0/repo/com/alibaba/fastjson/1.2.44/fastjson-1.2.44.jar!/com/alibaba/fastjson/serializer/SerialContext.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="45" column="25" selection-start-line="41" selection-start-column="11" selection-end-line="45" selection-end-column="25" />
+        <state relative-caret-position="112">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-protocol/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-codec/pom.xml">
+    <entry file="jar://D:/program/environment/apache-maven-3.6.0/repo/com/alibaba/fastjson/1.2.44/fastjson-1.2.44.jar!/com/alibaba/fastjson/serializer/JSONSerializer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-codec/src/main/java/com/wang/rpc/codec/JSONEncoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-codec/src/test/java/com/wang/rpc/codec/JSONEncoderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="15" column="29" selection-start-line="10" selection-start-column="7" selection-end-line="15" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-codec/src/main/java/com/wang/rpc/codec/JSONDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-codec/src/test/java/com/wang/rpc/codec/TestBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-codec/src/main/java/com/wang/rpc/codec/Decoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-codec/rpccodec.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-codec/src/test/java/com/wang/rpc/codec/JSONDecoderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-transport/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="49" lean-forward="true" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-protocol/src/main/java/com/wang/rpc/Peer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="62">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2649#2650#0" expanded="true" />
+            <element signature="e#2684#2685#0" expanded="true" />
+            <element signature="e#11401#11402#0" expanded="true" />
+            <element signature="e#11458#11459#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-protocol/src/main/java/com/wang/rpc/SerivceDescriptor.java">
+    <entry file="jar://D:/program/environment/apache-maven-3.6.0/repo/com/alibaba/fastjson/1.2.44/fastjson-1.2.44.jar!/com/alibaba/fastjson/serializer/SerializeWriter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        <state relative-caret-position="87">
+          <caret line="172" selection-start-line="172" selection-end-line="172" />
+          <folding>
+            <element signature="e#5739#5740#0" expanded="true" />
+            <element signature="e#5792#5793#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-example/src/main/java/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-example/src/main/java/CalcInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-example/src/main/java/CalcService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-example/src/main/java/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-client/src/main/java/com/wang/rpc/client/RpcClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-protocol/src/main/java/com/wang/rpc/Response.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rpc-protocol/src/main/java/com/wang/rpc/Request.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-client/src/main/java/com/wang/rpc/client/RemoteInvoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-server/src/main/java/com/wang/rpc/server/ServiceManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-server/src/test/java/com/wang/rpc/server/ServiceManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-codec/src/main/java/com/wang/rpc/codec/DecodeException.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-transport/src/main/java/com/wang/rpc/transport/RequestHandler.java">
+    <entry file="file://$PROJECT_DIR$/rpc-codec/src/main/java/com/wang/rpc/codec/JSONDecoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="374">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-transport/src/main/java/com/wang/rpc/transport/TransportClinet.java">
+    <entry file="file://$PROJECT_DIR$/rpc-codec/src/main/java/com/wang/rpc/codec/JSONEncoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="173">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/program/environment/apache-maven-3.6.0/repo/commons-io/commons-io/2.5/commons-io-2.5.jar!/org/apache/commons/io/IOUtils.class">
+    <entry file="file://$PROJECT_DIR$/rpc-codec/src/main/java/com/wang/rpc/codec/Decoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="634" column="22" selection-start-line="634" selection-start-column="22" selection-end-line="634" selection-end-column="22" />
+        <state relative-caret-position="250">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-transport/src/main/java/com/wang/rpc/transport/HTTPTransportClient.java">
+    <entry file="file://$PROJECT_DIR$/rpc-codec/src/main/java/com/wang/rpc/codec/Encoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="275">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-transport/src/main/java/com/wang/rpc/transport/TransportServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-transport/src/main/java/com/wang/rpc/transport/HttpTransportServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>rpcprotocol</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

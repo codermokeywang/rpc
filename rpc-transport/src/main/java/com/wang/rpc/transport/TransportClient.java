@@ -14,7 +14,7 @@ import java.net.MalformedURLException;
  * @author: wangwancheng
  * @create: 2021-09-07 21:13
  */
-public interface TransportClinet {
+public interface TransportClient {
     void connect(Peer peer);
     InputStream write(InputStream data) throws IOException;
     void close();

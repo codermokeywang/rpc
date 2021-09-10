@@ -2,12 +2,10 @@ package com.wang.rpc.transport;
 
 import com.wang.rpc.Peer;
 import org.apache.commons.io.IOUtils;
-import sun.nio.ch.IOUtil;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
 
 /**
@@ -16,7 +14,7 @@ import java.net.URL;
  * @author: wangwancheng
  * @create: 2021-09-07 21:20
  */
-public class HTTPTransportClient implements TransportClinet {
+public class HTTPTransportClient implements TransportClient {
     private String url;
     @Override
     public void connect(Peer peer) {

@@ -8,4 +8,5 @@ package com.wang.rpc.codec;
  */
 public interface Encoder {
     byte[] encode(Object obj);
+
 }

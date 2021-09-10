@@ -10,6 +10,7 @@ import lombok.Data;
  */
 @Data
 public class Request {
-    private SerivceDescriptor service;
+    private ServiceDescriptor serviceDescriptor;
     private Object[] parameters;
+
 }
